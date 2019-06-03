@@ -270,11 +270,11 @@ img {
 }
 
 .slide.next {
-  left: -20px;
+  left: 20px;
 }
 
 .slide.prev {
-  left: 20px;
+  left: -20px;
 }
 
 .slide img {
