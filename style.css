@@ -135,6 +135,11 @@ body:after {
 a {
   color: var(--blue);
   text-decoration: none;
+  transition: color .5s ease;
+}
+
+a:hover {
+  color: #0000FF;
 }
 
 h1, h2, h3 {
