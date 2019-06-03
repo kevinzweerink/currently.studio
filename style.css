@@ -236,6 +236,10 @@ img {
   margin-bottom: 43px;
 }
 
+.grid-item.project-link p:first-of-type {
+  margin-bottom: 15px;
+}
+
 .slideshow {
   margin: 0 0 0 var(--ribbon_pad);
   height: 95vh;
@@ -280,6 +284,24 @@ img {
   transform: translate(-50%, -50%);
   max-height:  80vh;
   max-width: 80%;
+}
+
+.slide-description {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #666;
+  padding: 15px 25px;
+
+}
+
+.slide-description p {
+  font-family: FoundersGroteskMono;
+  font-size: 13px;
+  line-height: 20px;
+  max-width: 100%;
+  text-align: center;
 }
 
 .grid-block__info {
