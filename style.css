@@ -171,7 +171,7 @@ img {
 .nameplate {
   width: 100vh;
   background: var(--white);
-  padding: 10px 15px;
+  padding: 9px 15px 11px;
   border-top: 1px solid var(--black);
   transform-origin: top left;
   transform: rotate(90deg) translate(0, -100%);
@@ -374,7 +374,7 @@ img {
   }
 
   .nameplate {
-    padding: 5px 15px;
+    padding: 4px 15px 6px;
   }
 
   .slideshow {
