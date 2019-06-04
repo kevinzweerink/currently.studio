@@ -1,8 +1,8 @@
 var SlideShow = function (el) {
   this.container = el;
   this.slides = el.querySelectorAll('.slide');
-  this.index = 0;
   this.slideCount = this.slides.length;
+  this.index = this.slides.length * 30;
 }
 
 SlideShow.prototype.init = function () {
