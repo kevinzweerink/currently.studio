@@ -157,11 +157,12 @@ p:last-of-type {
   margin-bottom: 0;
 }
 
-ul {
+ul.text-list {
+  list-style-type: circle;
 }
 
-ul li {
-  max-width: 600px;
+ul.text-list li {
+  max-width: 500px;
   margin-bottom: 10px;
 }
 
