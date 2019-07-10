@@ -157,15 +157,6 @@ p:last-of-type {
   margin-bottom: 0;
 }
 
-ul.text-list {
-  list-style-type: circle;
-}
-
-ul.text-list li {
-  max-width: 500px;
-  margin-bottom: 10px;
-}
-
 blockquote {
   padding-left: 70px;
   color: var(--gray);
@@ -205,7 +196,19 @@ img {
 .lede {
   font-size: var(--large_type);
   line-height: var(--large_line_height);
-  max-width: 790px;
+  max-width: 720px;
+}
+
+.brand {
+  color: var(--blue);
+}
+
+.bullets {
+  list-style-type: circle;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 .grid-block {
