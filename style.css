@@ -267,6 +267,9 @@ li:before {
 
 .lede {
   position: relative;
+  font-family: var(--font_secondary);
+  line-height: 1;
+  font-size: 1.7em;
 }
 
 .body, .footer {
@@ -276,7 +279,7 @@ li:before {
 }
 
 .body {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 .footer {
@@ -336,8 +339,7 @@ p {
 }
 
 .indent {
-  /*padding-left: 60px;*/
-  margin-top: 30px;
+  margin-top: 50px;
   position: relative;
   text-indent: 0;
 }
@@ -443,6 +445,10 @@ p {
     display: none;
   }
 
+  .lede {
+    font-size: 1.5em;
+  }
+
   .footer {
     margin: auto;
     margin-top: 0;
@@ -477,6 +483,10 @@ p {
     left: 0;
     top: -1px;
     margin-right: 15px;
+  }
+
+  .lede:before {
+    top: -4px;
   }
 
   h1, h2 {
