@@ -170,6 +170,9 @@ li:before, .lede:before {
 
 li:before {
   left: 0;
+  background: transparent;
+  border: 2px solid var(--black);
+  box-sizing: border-box;
 }
 
 .lede:before {
@@ -327,17 +330,21 @@ p {
   .body, .footer {
     margin: 0 auto 0 14vw;
   }
+
+  .footer {
+    margin-top: 120px;
+  }
 }
 
 @media (max-width: 1000px) {
   :root {
     --extra_large_type: 30px;
     --large_type: 30px;
-    --medium_type: 25px;
+    --medium_type: 23px;
     --small_type: 18px;
     --extra_large_line_height: 38px;
     --large_line_height: 38px;
-    --medium_line_height: 33px;
+    --medium_line_height: 29px;
     --fold_size: 70px;
   }
 
@@ -428,6 +435,10 @@ p {
     margin-top: 20px;
   }
 
+  .indent:before, .indent:after {
+    display: none;
+  }
+
   .indent:after {
     top: 6px;
   }
@@ -437,6 +448,6 @@ p {
   }
 
   .big-indent:after {
-    top: 10px;
+    top: 7px;
   }
 }
