@@ -43,108 +43,32 @@ table {
 }
 
 @font-face {
-    font-family: TiemposHeadline;
-    src: url(./assets/fonts/TiemposHeadlineWeb-Regular.eot);
-    font-weight:400;
-}
-@font-face {
-    font-family: TiemposHeadline;
-    src: url(./assets/fonts/TiemposHeadlineWeb-Regular.woff);
-    font-weight:400;
-}
-@font-face {
-    font-family: TiemposHeadline;
-    src: url(./assets/fonts/TiemposHeadlineWeb-Regular.woff2);
-    font-weight:400;
-}
-
-@font-face {
-    font-family: TiemposHeadlineLight;
-    src: url(./assets/fonts/TiemposHeadlineWeb-Light.eot);
-    font-weight:300;
-}
-@font-face {
-    font-family: TiemposHeadlineLight;
-    src: url(./assets/fonts/TiemposHeadlineWeb-Light.woff);
-    font-weight:300;
-}
-@font-face {
-    font-family: TiemposHeadline;
-    src: url(./assets/fonts/TiemposHeadlineWeb-Light.woff2);
-    font-weight:300;
-}
-
-@font-face {
-    font-family: TiemposHeadline;
-    src: url(./assets/fonts/TiemposHeadlineWeb-RegularItalic.eot);
-    font-weight:400;
-    font-style: italic;
-}
-@font-face {
-    font-family: TiemposHeadline;
-    src: url(./assets/fonts/TiemposHeadlineWeb-RegularItalic.woff);
-    font-weight:400;
-    font-style: italic;
-}
-@font-face {
-    font-family: TiemposHeadline;
-    src: url(./assets/fonts/TiemposHeadlineWeb-RegularItalic.woff2);
-    font-weight:400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: TiemposHeadlineLight;
-    src: url(./assets/fonts/TiemposHeadlineWeb-LightItalic.eot);
-    font-weight:300;
-    font-style: italic;
-}
-@font-face {
-    font-family: TiemposHeadlineLight;
-    src: url(./assets/fonts/TiemposHeadlineWeb-LightItalic.woff);
-    font-weight:300;
-    font-style: italic;
-}
-@font-face {
-    font-family: TiemposHeadline;
-    src: url(./assets/fonts/TiemposHeadlineWeb-LightItalic.woff2);
-    font-weight:300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: FoundersGrotesk;
-    src: url(./assets/fonts/FoundersGroteskWeb-Regular.eot);
+    font-family: Monument;
+    src: url(./assets/fonts/MonumentGrotesk-Semi-Mono.woff);
     font-weight:400;
 }
 @font-face {
     font-family: FoundersGrotesk;
-    src: url(./assets/fonts/FoundersGroteskWeb-Regular.woff);
-    font-weight:400;
-}
-@font-face {
-    font-family: FoundersGrotesk;
-    src: url(./assets/fonts/FoundersGroteskWeb-Regular.woff2);
+    src: url(./assets/fonts/MonumentGrotesk-Semi-Mono.woff2);
     font-weight:400;
 }
 
 :root {
-  --blue: #000ebd;
+  --blue: #0012e4;
   --black: #111;
   --white: #fff;
   --gray: #444;
-  --font: 'TiemposHeadline';
-  --font_secondary: 'FoundersGrotesk';
+  --font: 'Monument';
   --extra_large_type: 50px;
   --large_type: 50px;
-  --medium_type: 37px;
-  --small_type: 20px;
+  --medium_type: 32px;
+  --small_type: 18px;
   --extra_large_line_height: 60px;
   --large_line_height: 60px;
-  --medium_line_height: 45px;
+  --medium_line_height: 42px;
   --small_line_height:  1.5;
   --fold_size: 80px;
-  --cool_gray: #e3e8e9;
+  --cool_gray: #FBE2AC;
 }
 
 html, body {
@@ -155,7 +79,6 @@ html, body {
   font-size: var(--medium_type);
   line-height: var(--medium_line_height);
   -webkit-font-smoothing: antialiased;
-  font-weight: 300;
   background: var(--cool_gray);
 }
 
@@ -206,11 +129,9 @@ h1, h2 {
 h1 {
   font-size: var(--extra_large_type);
   line-height: var(--extra_large_line_height);
-  font-weight: 400;
 }
 
 h6 {
-  font-family: var(--font_secondary);
   font-size: var(--small_type);
   line-height: var(--small_line_height);
   text-transform: uppercase;
@@ -225,7 +146,7 @@ p {
 }
 
 cite {
-  font-style: italic;
+  /*font-style: italic;*/
 }
 
 li {
@@ -267,9 +188,8 @@ li:before {
 
 .lede {
   position: relative;
-  font-family: var(--font_secondary);
-  line-height: 1;
-  font-size: 1.7em;
+  line-height: 1.1;
+  letter-spacing: -1px;
 }
 
 .body, .footer {
@@ -319,7 +239,7 @@ p {
   width: 16px;
   height: 16px;
   border: 1px solid var(--black);
-  top: 9px;
+  top: 6px;
   left: 16px;
   transform: rotate(45deg);
   border-left: none;
@@ -346,10 +266,12 @@ p {
 
 .big-indent:before {
   top: -10.5px;
+  height: 2px;
 }
 
 .big-indent:after {
-  top: 18px;
+  top: 13px;
+  border-width: 2px;
 }
 
 .blue {
@@ -388,16 +310,15 @@ p {
 }
 
 .nameplate h1, .nameplate h2 {
-  font-family: var(--font_secondary);
   text-transform: uppercase;
   font-size: var(--small_type);
-  line-height: var(--small_line_height);
+  line-height: 1.6;
   letter-spacing: .5px;
 }
 
 .nameplate .dot {
   background: transparent;
-  border: 1px solid var(--blue);
+  border: 1px solid var(--black);
   box-sizing: border-box;
   background: var(--cool_gray);
 }
@@ -499,6 +420,10 @@ p {
     margin-bottom: 20px;
   }
 
+  p {
+    text-indent: 31px;
+  }
+
   .indent {
     margin-top: 20px;
   }
@@ -508,7 +433,7 @@ p {
   }
 
   .big-indent:before {
-    top: -7.5px;
+    top: -6px;
   }
 
   .big-indent:after {
