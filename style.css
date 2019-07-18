@@ -274,7 +274,7 @@ li:before {
 
 .body, .footer {
   max-width: 630px;
-  margin: 0 auto 0 250px;
+  margin: 0 auto 0 200px;
   padding: 20px;
 }
 
@@ -400,6 +400,12 @@ p {
   border: 1px solid var(--blue);
   box-sizing: border-box;
   background: var(--cool_gray);
+}
+
+@media (max-width: 1200px) {
+  .body, .footer {
+    margin: 0 auto 0 14vw;
+  }
 }
 
 @media (max-width: 1000px) {
