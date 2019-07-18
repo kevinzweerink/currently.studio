@@ -271,12 +271,12 @@ li:before {
 
 .body, .footer {
   max-width: 630px;
-  margin: auto;
+  margin: 0 auto 0 250px;
   padding: 20px;
 }
 
 .body {
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 .footer {
@@ -418,6 +418,7 @@ p {
 
   .body {
     padding-top: 70px;
+    margin: auto;
   }
   .nameplate {
     transform: none;
