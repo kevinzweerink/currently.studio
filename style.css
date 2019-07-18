@@ -252,7 +252,7 @@ li:before {
 }
 
 .lede:before {
-  top: 23px;
+  top: 25px;
   background: var(--blue);
 }
 
@@ -498,7 +498,7 @@ p {
   }
 
   .indent:after {
-    top: 4px;
+    top: 6px;
   }
 
   .big-indent:before {
