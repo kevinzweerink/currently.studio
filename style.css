@@ -129,8 +129,8 @@ table {
 }
 
 :root {
-  --blue: #0909BA;
-  --black: #000;
+  --blue: #000ebd;
+  --black: #111;
   --white: #fff;
   --gray: #444;
   --font: 'TiemposHeadline';
@@ -155,6 +155,7 @@ html, body {
   line-height: var(--medium_line_height);
   -webkit-font-smoothing: antialiased;
   font-weight: 300;
+  background: #e8e8e8;
 }
 
 body:before {
@@ -262,7 +263,7 @@ li:before, .lede:before {
 }
 
 .body, .footer {
-  max-width: 650px;
+  max-width: 630px;
   margin: auto;
   padding: 20px;
 }
@@ -293,35 +294,53 @@ li:before, .lede:before {
   color: var(--black);
 }
 
-.indent:before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  border: 1px solid var(--black);
-  top: 6px;
-  left: 31px;
-  transform: rotate(45deg);
-  border-left: none;
-  border-bottom: none;
+p {
+  text-indent: 65px;
+}
+
+.no-indent {
+  text-indent: 0;
 }
 
 .indent:after {
   content: '';
   display: block;
   position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--black);
+  top: 9px;
+  left: 31px;
+  transform: rotate(45deg);
+  border-left: none;
+  border-bottom: none;
+}
+
+.indent:before {
+  content: '';
+  display: inline-block;
+  position: relative;
   width: 50px;
   height: 1px;
   background: var(--black);
-  top: 13.5px;
+  top: -5.5px;
   left: 0px;
+  margin-right: 15px;
 }
 
 .indent {
-  padding-left: 60px;
+  /*padding-left: 60px;*/
   margin-top: 30px;
   position: relative;
+  text-indent: 0;
+}
+
+.big-indent:before {
+  top: -10.5px;
+}
+
+.big-indent:after {
+  top: 18px;
 }
 
 .blue {
@@ -422,5 +441,17 @@ li:before, .lede:before {
 
   h1, h2 {
     margin-bottom: 20px;
+  }
+
+  .indent:after {
+    top: 4px;
+  }
+
+  .big-indent:before {
+    top: -7.5px;
+  }
+
+  .big-indent:after {
+    top: 10px;
   }
 }
