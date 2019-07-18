@@ -420,6 +420,7 @@ p {
     padding-top: 70px;
     margin: auto;
   }
+
   .nameplate {
     transform: none;
     min-width: 100vw;
@@ -443,6 +444,7 @@ p {
   }
 
   .footer {
+    margin: auto;
     margin-top: 0;
     padding-bottom: 30px;
   }
