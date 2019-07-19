@@ -53,6 +53,1092 @@ table {
     font-weight:400;
 }
 
+@keyframes rotate_color {
+  0% {
+    background: #fbacac;
+  }
+  0.2777777778% {
+    background: #fbaeac;
+  }
+  0.5555555556% {
+    background: #fbafac;
+  }
+  0.8333333333% {
+    background: #fbb0ac;
+  }
+  1.1111111111% {
+    background: #fbb1ac;
+  }
+  1.3888888889% {
+    background: #fbb3ac;
+  }
+  1.6666666667% {
+    background: #fbb4ac;
+  }
+  1.9444444444% {
+    background: #fbb5ac;
+  }
+  2.2222222222% {
+    background: #fbb7ac;
+  }
+  2.5% {
+    background: #fbb8ac;
+  }
+  2.7777777778% {
+    background: #fbb9ac;
+  }
+  3.0555555556% {
+    background: #fbbbac;
+  }
+  3.3333333333% {
+    background: #fbbcac;
+  }
+  3.6111111111% {
+    background: #fbbdac;
+  }
+  3.8888888889% {
+    background: #fbbfac;
+  }
+  4.1666666667% {
+    background: #fbc0ac;
+  }
+  4.4444444444% {
+    background: #fbc1ac;
+  }
+  4.7222222222% {
+    background: #fbc3ac;
+  }
+  5% {
+    background: #fbc4ac;
+  }
+  5.2777777778% {
+    background: #fbc5ac;
+  }
+  5.5555555556% {
+    background: #fbc7ac;
+  }
+  5.8333333333% {
+    background: #fbc8ac;
+  }
+  6.1111111111% {
+    background: #fbc9ac;
+  }
+  6.3888888889% {
+    background: #fbcaac;
+  }
+  6.6666666667% {
+    background: #fbccac;
+  }
+  6.9444444444% {
+    background: #fbcdac;
+  }
+  7.2222222222% {
+    background: #fbceac;
+  }
+  7.5% {
+    background: #fbd0ac;
+  }
+  7.7777777778% {
+    background: #fbd1ac;
+  }
+  8.0555555556% {
+    background: #fbd2ac;
+  }
+  8.3333333333% {
+    background: #fbd4ac;
+  }
+  8.6111111111% {
+    background: #fbd5ac;
+  }
+  8.8888888889% {
+    background: #fbd6ac;
+  }
+  9.1666666667% {
+    background: #fbd8ac;
+  }
+  9.4444444444% {
+    background: #fbd9ac;
+  }
+  9.7222222222% {
+    background: #fbdaac;
+  }
+  10% {
+    background: #fbdcac;
+  }
+  10.2777777778% {
+    background: #fbddac;
+  }
+  10.5555555556% {
+    background: #fbdeac;
+  }
+  10.8333333333% {
+    background: #fbdfac;
+  }
+  11.1111111111% {
+    background: #fbe1ac;
+  }
+  11.3888888889% {
+    background: #fbe2ac;
+  }
+  11.6666666667% {
+    background: #fbe3ac;
+  }
+  11.9444444444% {
+    background: #fbe5ac;
+  }
+  12.2222222222% {
+    background: #fbe6ac;
+  }
+  12.5% {
+    background: #fbe7ac;
+  }
+  12.7777777778% {
+    background: #fbe9ac;
+  }
+  13.0555555556% {
+    background: #fbeaac;
+  }
+  13.3333333333% {
+    background: #fbebac;
+  }
+  13.6111111111% {
+    background: #fbedac;
+  }
+  13.8888888889% {
+    background: #fbeeac;
+  }
+  14.1666666667% {
+    background: #fbefac;
+  }
+  14.4444444444% {
+    background: #fbf1ac;
+  }
+  14.7222222222% {
+    background: #fbf2ac;
+  }
+  15% {
+    background: #fbf3ac;
+  }
+  15.2777777778% {
+    background: #fbf5ac;
+  }
+  15.5555555556% {
+    background: #fbf6ac;
+  }
+  15.8333333333% {
+    background: #fbf7ac;
+  }
+  16.1111111111% {
+    background: #fbf8ac;
+  }
+  16.3888888889% {
+    background: #fbfaac;
+  }
+  16.6666666667% {
+    background: #fbfbac;
+  }
+  16.9444444444% {
+    background: #fafbac;
+  }
+  17.2222222222% {
+    background: #f8fbac;
+  }
+  17.5% {
+    background: #f7fbac;
+  }
+  17.7777777778% {
+    background: #f6fbac;
+  }
+  18.0555555556% {
+    background: #f5fbac;
+  }
+  18.3333333333% {
+    background: #f3fbac;
+  }
+  18.6111111111% {
+    background: #f2fbac;
+  }
+  18.8888888889% {
+    background: #f1fbac;
+  }
+  19.1666666667% {
+    background: #effbac;
+  }
+  19.4444444444% {
+    background: #eefbac;
+  }
+  19.7222222222% {
+    background: #edfbac;
+  }
+  20% {
+    background: #ebfbac;
+  }
+  20.2777777778% {
+    background: #eafbac;
+  }
+  20.5555555556% {
+    background: #e9fbac;
+  }
+  20.8333333333% {
+    background: #e7fbac;
+  }
+  21.1111111111% {
+    background: #e6fbac;
+  }
+  21.3888888889% {
+    background: #e5fbac;
+  }
+  21.6666666667% {
+    background: #e3fbac;
+  }
+  21.9444444444% {
+    background: #e2fbac;
+  }
+  22.2222222222% {
+    background: #e1fbac;
+  }
+  22.5% {
+    background: #dffbac;
+  }
+  22.7777777778% {
+    background: #defbac;
+  }
+  23.0555555556% {
+    background: #ddfbac;
+  }
+  23.3333333333% {
+    background: #dcfbac;
+  }
+  23.6111111111% {
+    background: #dafbac;
+  }
+  23.8888888889% {
+    background: #d9fbac;
+  }
+  24.1666666667% {
+    background: #d8fbac;
+  }
+  24.4444444444% {
+    background: #d6fbac;
+  }
+  24.7222222222% {
+    background: #d5fbac;
+  }
+  25% {
+    background: #d4fbac;
+  }
+  25.2777777778% {
+    background: #d2fbac;
+  }
+  25.5555555556% {
+    background: #d1fbac;
+  }
+  25.8333333333% {
+    background: #d0fbac;
+  }
+  26.1111111111% {
+    background: #cefbac;
+  }
+  26.3888888889% {
+    background: #cdfbac;
+  }
+  26.6666666667% {
+    background: #ccfbac;
+  }
+  26.9444444444% {
+    background: #cafbac;
+  }
+  27.2222222222% {
+    background: #c9fbac;
+  }
+  27.5% {
+    background: #c8fbac;
+  }
+  27.7777777778% {
+    background: #c7fbac;
+  }
+  28.0555555556% {
+    background: #c5fbac;
+  }
+  28.3333333333% {
+    background: #c4fbac;
+  }
+  28.6111111111% {
+    background: #c3fbac;
+  }
+  28.8888888889% {
+    background: #c1fbac;
+  }
+  29.1666666667% {
+    background: #c0fbac;
+  }
+  29.4444444444% {
+    background: #bffbac;
+  }
+  29.7222222222% {
+    background: #bdfbac;
+  }
+  30% {
+    background: #bcfbac;
+  }
+  30.2777777778% {
+    background: #bbfbac;
+  }
+  30.5555555556% {
+    background: #b9fbac;
+  }
+  30.8333333333% {
+    background: #b8fbac;
+  }
+  31.1111111111% {
+    background: #b7fbac;
+  }
+  31.3888888889% {
+    background: #b5fbac;
+  }
+  31.6666666667% {
+    background: #b4fbac;
+  }
+  31.9444444444% {
+    background: #b3fbac;
+  }
+  32.2222222222% {
+    background: #b1fbac;
+  }
+  32.5% {
+    background: #b0fbac;
+  }
+  32.7777777778% {
+    background: #affbac;
+  }
+  33.0555555556% {
+    background: #aefbac;
+  }
+  33.3333333333% {
+    background: #acfbac;
+  }
+  33.6111111111% {
+    background: #acfbae;
+  }
+  33.8888888889% {
+    background: #acfbaf;
+  }
+  34.1666666667% {
+    background: #acfbb0;
+  }
+  34.4444444444% {
+    background: #acfbb1;
+  }
+  34.7222222222% {
+    background: #acfbb3;
+  }
+  35% {
+    background: #acfbb4;
+  }
+  35.2777777778% {
+    background: #acfbb5;
+  }
+  35.5555555556% {
+    background: #acfbb7;
+  }
+  35.8333333333% {
+    background: #acfbb8;
+  }
+  36.1111111111% {
+    background: #acfbb9;
+  }
+  36.3888888889% {
+    background: #acfbbb;
+  }
+  36.6666666667% {
+    background: #acfbbc;
+  }
+  36.9444444444% {
+    background: #acfbbd;
+  }
+  37.2222222222% {
+    background: #acfbbf;
+  }
+  37.5% {
+    background: #acfbc0;
+  }
+  37.7777777778% {
+    background: #acfbc1;
+  }
+  38.0555555556% {
+    background: #acfbc3;
+  }
+  38.3333333333% {
+    background: #acfbc4;
+  }
+  38.6111111111% {
+    background: #acfbc5;
+  }
+  38.8888888889% {
+    background: #acfbc7;
+  }
+  39.1666666667% {
+    background: #acfbc8;
+  }
+  39.4444444444% {
+    background: #acfbc9;
+  }
+  39.7222222222% {
+    background: #acfbca;
+  }
+  40% {
+    background: #acfbcc;
+  }
+  40.2777777778% {
+    background: #acfbcd;
+  }
+  40.5555555556% {
+    background: #acfbce;
+  }
+  40.8333333333% {
+    background: #acfbd0;
+  }
+  41.1111111111% {
+    background: #acfbd1;
+  }
+  41.3888888889% {
+    background: #acfbd2;
+  }
+  41.6666666667% {
+    background: #acfbd4;
+  }
+  41.9444444444% {
+    background: #acfbd5;
+  }
+  42.2222222222% {
+    background: #acfbd6;
+  }
+  42.5% {
+    background: #acfbd8;
+  }
+  42.7777777778% {
+    background: #acfbd9;
+  }
+  43.0555555556% {
+    background: #acfbda;
+  }
+  43.3333333333% {
+    background: #acfbdc;
+  }
+  43.6111111111% {
+    background: #acfbdd;
+  }
+  43.8888888889% {
+    background: #acfbde;
+  }
+  44.1666666667% {
+    background: #acfbdf;
+  }
+  44.4444444444% {
+    background: #acfbe1;
+  }
+  44.7222222222% {
+    background: #acfbe2;
+  }
+  45% {
+    background: #acfbe3;
+  }
+  45.2777777778% {
+    background: #acfbe5;
+  }
+  45.5555555556% {
+    background: #acfbe6;
+  }
+  45.8333333333% {
+    background: #acfbe7;
+  }
+  46.1111111111% {
+    background: #acfbe9;
+  }
+  46.3888888889% {
+    background: #acfbea;
+  }
+  46.6666666667% {
+    background: #acfbeb;
+  }
+  46.9444444444% {
+    background: #acfbed;
+  }
+  47.2222222222% {
+    background: #acfbee;
+  }
+  47.5% {
+    background: #acfbef;
+  }
+  47.7777777778% {
+    background: #acfbf1;
+  }
+  48.0555555556% {
+    background: #acfbf2;
+  }
+  48.3333333333% {
+    background: #acfbf3;
+  }
+  48.6111111111% {
+    background: #acfbf5;
+  }
+  48.8888888889% {
+    background: #acfbf6;
+  }
+  49.1666666667% {
+    background: #acfbf7;
+  }
+  49.4444444444% {
+    background: #acfbf8;
+  }
+  49.7222222222% {
+    background: #acfbfa;
+  }
+  50% {
+    background: #acfbfb;
+  }
+  50.2777777778% {
+    background: #acfafb;
+  }
+  50.5555555556% {
+    background: #acf8fb;
+  }
+  50.8333333333% {
+    background: #acf7fb;
+  }
+  51.1111111111% {
+    background: #acf6fb;
+  }
+  51.3888888889% {
+    background: #acf5fb;
+  }
+  51.6666666667% {
+    background: #acf3fb;
+  }
+  51.9444444444% {
+    background: #acf2fb;
+  }
+  52.2222222222% {
+    background: #acf1fb;
+  }
+  52.5% {
+    background: #aceffb;
+  }
+  52.7777777778% {
+    background: #aceefb;
+  }
+  53.0555555556% {
+    background: #acedfb;
+  }
+  53.3333333333% {
+    background: #acebfb;
+  }
+  53.6111111111% {
+    background: #aceafb;
+  }
+  53.8888888889% {
+    background: #ace9fb;
+  }
+  54.1666666667% {
+    background: #ace7fb;
+  }
+  54.4444444444% {
+    background: #ace6fb;
+  }
+  54.7222222222% {
+    background: #ace5fb;
+  }
+  55% {
+    background: #ace3fb;
+  }
+  55.2777777778% {
+    background: #ace2fb;
+  }
+  55.5555555556% {
+    background: #ace1fb;
+  }
+  55.8333333333% {
+    background: #acdffb;
+  }
+  56.1111111111% {
+    background: #acdefb;
+  }
+  56.3888888889% {
+    background: #acddfb;
+  }
+  56.6666666667% {
+    background: #acdcfb;
+  }
+  56.9444444444% {
+    background: #acdafb;
+  }
+  57.2222222222% {
+    background: #acd9fb;
+  }
+  57.5% {
+    background: #acd8fb;
+  }
+  57.7777777778% {
+    background: #acd6fb;
+  }
+  58.0555555556% {
+    background: #acd5fb;
+  }
+  58.3333333333% {
+    background: #acd4fb;
+  }
+  58.6111111111% {
+    background: #acd2fb;
+  }
+  58.8888888889% {
+    background: #acd1fb;
+  }
+  59.1666666667% {
+    background: #acd0fb;
+  }
+  59.4444444444% {
+    background: #accefb;
+  }
+  59.7222222222% {
+    background: #accdfb;
+  }
+  60% {
+    background: #acccfb;
+  }
+  60.2777777778% {
+    background: #accafb;
+  }
+  60.5555555556% {
+    background: #acc9fb;
+  }
+  60.8333333333% {
+    background: #acc8fb;
+  }
+  61.1111111111% {
+    background: #acc7fb;
+  }
+  61.3888888889% {
+    background: #acc5fb;
+  }
+  61.6666666667% {
+    background: #acc4fb;
+  }
+  61.9444444444% {
+    background: #acc3fb;
+  }
+  62.2222222222% {
+    background: #acc1fb;
+  }
+  62.5% {
+    background: #acc0fb;
+  }
+  62.7777777778% {
+    background: #acbffb;
+  }
+  63.0555555556% {
+    background: #acbdfb;
+  }
+  63.3333333333% {
+    background: #acbcfb;
+  }
+  63.6111111111% {
+    background: #acbbfb;
+  }
+  63.8888888889% {
+    background: #acb9fb;
+  }
+  64.1666666667% {
+    background: #acb8fb;
+  }
+  64.4444444444% {
+    background: #acb7fb;
+  }
+  64.7222222222% {
+    background: #acb5fb;
+  }
+  65% {
+    background: #acb4fb;
+  }
+  65.2777777778% {
+    background: #acb3fb;
+  }
+  65.5555555556% {
+    background: #acb1fb;
+  }
+  65.8333333333% {
+    background: #acb0fb;
+  }
+  66.1111111111% {
+    background: #acaffb;
+  }
+  66.3888888889% {
+    background: #acaefb;
+  }
+  66.6666666667% {
+    background: #acacfb;
+  }
+  66.9444444444% {
+    background: #aeacfb;
+  }
+  67.2222222222% {
+    background: #afacfb;
+  }
+  67.5% {
+    background: #b0acfb;
+  }
+  67.7777777778% {
+    background: #b1acfb;
+  }
+  68.0555555556% {
+    background: #b3acfb;
+  }
+  68.3333333333% {
+    background: #b4acfb;
+  }
+  68.6111111111% {
+    background: #b5acfb;
+  }
+  68.8888888889% {
+    background: #b7acfb;
+  }
+  69.1666666667% {
+    background: #b8acfb;
+  }
+  69.4444444444% {
+    background: #b9acfb;
+  }
+  69.7222222222% {
+    background: #bbacfb;
+  }
+  70% {
+    background: #bcacfb;
+  }
+  70.2777777778% {
+    background: #bdacfb;
+  }
+  70.5555555556% {
+    background: #bfacfb;
+  }
+  70.8333333333% {
+    background: #c0acfb;
+  }
+  71.1111111111% {
+    background: #c1acfb;
+  }
+  71.3888888889% {
+    background: #c3acfb;
+  }
+  71.6666666667% {
+    background: #c4acfb;
+  }
+  71.9444444444% {
+    background: #c5acfb;
+  }
+  72.2222222222% {
+    background: #c7acfb;
+  }
+  72.5% {
+    background: #c8acfb;
+  }
+  72.7777777778% {
+    background: #c9acfb;
+  }
+  73.0555555556% {
+    background: #caacfb;
+  }
+  73.3333333333% {
+    background: #ccacfb;
+  }
+  73.6111111111% {
+    background: #cdacfb;
+  }
+  73.8888888889% {
+    background: #ceacfb;
+  }
+  74.1666666667% {
+    background: #d0acfb;
+  }
+  74.4444444444% {
+    background: #d1acfb;
+  }
+  74.7222222222% {
+    background: #d2acfb;
+  }
+  75% {
+    background: #d4acfb;
+  }
+  75.2777777778% {
+    background: #d5acfb;
+  }
+  75.5555555556% {
+    background: #d6acfb;
+  }
+  75.8333333333% {
+    background: #d8acfb;
+  }
+  76.1111111111% {
+    background: #d9acfb;
+  }
+  76.3888888889% {
+    background: #daacfb;
+  }
+  76.6666666667% {
+    background: #dcacfb;
+  }
+  76.9444444444% {
+    background: #ddacfb;
+  }
+  77.2222222222% {
+    background: #deacfb;
+  }
+  77.5% {
+    background: #dfacfb;
+  }
+  77.7777777778% {
+    background: #e1acfb;
+  }
+  78.0555555556% {
+    background: #e2acfb;
+  }
+  78.3333333333% {
+    background: #e3acfb;
+  }
+  78.6111111111% {
+    background: #e5acfb;
+  }
+  78.8888888889% {
+    background: #e6acfb;
+  }
+  79.1666666667% {
+    background: #e7acfb;
+  }
+  79.4444444444% {
+    background: #e9acfb;
+  }
+  79.7222222222% {
+    background: #eaacfb;
+  }
+  80% {
+    background: #ebacfb;
+  }
+  80.2777777778% {
+    background: #edacfb;
+  }
+  80.5555555556% {
+    background: #eeacfb;
+  }
+  80.8333333333% {
+    background: #efacfb;
+  }
+  81.1111111111% {
+    background: #f1acfb;
+  }
+  81.3888888889% {
+    background: #f2acfb;
+  }
+  81.6666666667% {
+    background: #f3acfb;
+  }
+  81.9444444444% {
+    background: #f5acfb;
+  }
+  82.2222222222% {
+    background: #f6acfb;
+  }
+  82.5% {
+    background: #f7acfb;
+  }
+  82.7777777778% {
+    background: #f8acfb;
+  }
+  83.0555555556% {
+    background: #faacfb;
+  }
+  83.3333333333% {
+    background: #fbacfb;
+  }
+  83.6111111111% {
+    background: #fbacfa;
+  }
+  83.8888888889% {
+    background: #fbacf8;
+  }
+  84.1666666667% {
+    background: #fbacf7;
+  }
+  84.4444444444% {
+    background: #fbacf6;
+  }
+  84.7222222222% {
+    background: #fbacf5;
+  }
+  85% {
+    background: #fbacf3;
+  }
+  85.2777777778% {
+    background: #fbacf2;
+  }
+  85.5555555556% {
+    background: #fbacf1;
+  }
+  85.8333333333% {
+    background: #fbacef;
+  }
+  86.1111111111% {
+    background: #fbacee;
+  }
+  86.3888888889% {
+    background: #fbaced;
+  }
+  86.6666666667% {
+    background: #fbaceb;
+  }
+  86.9444444444% {
+    background: #fbacea;
+  }
+  87.2222222222% {
+    background: #fbace9;
+  }
+  87.5% {
+    background: #fbace7;
+  }
+  87.7777777778% {
+    background: #fbace6;
+  }
+  88.0555555556% {
+    background: #fbace5;
+  }
+  88.3333333333% {
+    background: #fbace3;
+  }
+  88.6111111111% {
+    background: #fbace2;
+  }
+  88.8888888889% {
+    background: #fbace1;
+  }
+  89.1666666667% {
+    background: #fbacdf;
+  }
+  89.4444444444% {
+    background: #fbacde;
+  }
+  89.7222222222% {
+    background: #fbacdd;
+  }
+  90% {
+    background: #fbacdc;
+  }
+  90.2777777778% {
+    background: #fbacda;
+  }
+  90.5555555556% {
+    background: #fbacd9;
+  }
+  90.8333333333% {
+    background: #fbacd8;
+  }
+  91.1111111111% {
+    background: #fbacd6;
+  }
+  91.3888888889% {
+    background: #fbacd5;
+  }
+  91.6666666667% {
+    background: #fbacd4;
+  }
+  91.9444444444% {
+    background: #fbacd2;
+  }
+  92.2222222222% {
+    background: #fbacd1;
+  }
+  92.5% {
+    background: #fbacd0;
+  }
+  92.7777777778% {
+    background: #fbacce;
+  }
+  93.0555555556% {
+    background: #fbaccd;
+  }
+  93.3333333333% {
+    background: #fbaccc;
+  }
+  93.6111111111% {
+    background: #fbacca;
+  }
+  93.8888888889% {
+    background: #fbacc9;
+  }
+  94.1666666667% {
+    background: #fbacc8;
+  }
+  94.4444444444% {
+    background: #fbacc7;
+  }
+  94.7222222222% {
+    background: #fbacc5;
+  }
+  95% {
+    background: #fbacc4;
+  }
+  95.2777777778% {
+    background: #fbacc3;
+  }
+  95.5555555556% {
+    background: #fbacc1;
+  }
+  95.8333333333% {
+    background: #fbacc0;
+  }
+  96.1111111111% {
+    background: #fbacbf;
+  }
+  96.3888888889% {
+    background: #fbacbd;
+  }
+  96.6666666667% {
+    background: #fbacbc;
+  }
+  96.9444444444% {
+    background: #fbacbb;
+  }
+  97.2222222222% {
+    background: #fbacb9;
+  }
+  97.5% {
+    background: #fbacb8;
+  }
+  97.7777777778% {
+    background: #fbacb7;
+  }
+  98.0555555556% {
+    background: #fbacb5;
+  }
+  98.3333333333% {
+    background: #fbacb4;
+  }
+  98.6111111111% {
+    background: #fbacb3;
+  }
+  98.8888888889% {
+    background: #fbacb1;
+  }
+  99.1666666667% {
+    background: #fbacb0;
+  }
+  99.4444444444% {
+    background: #fbacaf;
+  }
+  99.7222222222% {
+    background: #fbacae;
+  }
+  100% {
+    background: #fbacac;
+  }
+}
+
 :root {
   --blue: #0012e4;
   --black: #111;
@@ -80,33 +1166,7 @@ html, body {
   line-height: var(--medium_line_height);
   -webkit-font-smoothing: antialiased;
   background: var(--cool_gray);
-}
-
-body:before {
-  content: '';
-  position: fixed;
-  display: block;
-  top: 0;
-  right: 0;
-  width: var(--fold_size);
-  height: var(--fold_size);
-  border: 1px solid var(--black);
-  background: var(--white);
-  z-index: 1000;
-}
-
-body:after {
-  content: '';
-  position: fixed;
-  display: block;
-  top: 0px;
-  right: 0px;
-  width: 0px;
-  height: 0px;
-  border: calc(var(--fold_size) / 2) solid var(--black);
-  border-left-color: transparent;
-  border-bottom-color: transparent;
-  z-index: 1001;
+  animation: rotate_color 60s infinite;
 }
 
 a {
@@ -315,7 +1375,7 @@ p {
 .nameplate h1, .nameplate h2 {
   text-transform: uppercase;
   font-size: var(--small_type);
-  line-height: 1.6;
+  line-height: 1.5;
   letter-spacing: .5px;
 }
 
@@ -324,6 +1384,7 @@ p {
   border: 1px solid var(--black);
   box-sizing: border-box;
   background: var(--cool_gray);
+  animation: rotate_color 60s infinite;
 }
 
 @media (max-width: 1200px) {
@@ -346,10 +1407,6 @@ p {
     --large_line_height: 38px;
     --medium_line_height: 29px;
     --fold_size: 70px;
-  }
-
-  body:before, body:after {
-    display: none;
   }
 
   .body {
@@ -415,7 +1472,7 @@ p {
     position: relative;
     display: inline-block;
     left: 0;
-    top: -1px;
+    top: 0px;
     margin-right: 15px;
   }
 
